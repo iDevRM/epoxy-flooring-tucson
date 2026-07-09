@@ -171,7 +171,7 @@ a:hover { text-decoration: underline; }
 /* ── Services list ── */
 .services-list { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
 .services-list li { display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.95rem; }
-.services-list li::before { content: "&#10003;"; color: var(--amber); font-weight: 700; flex-shrink: 0; margin-top: 2px; }
+.services-list li::before { content: "✓"; color: var(--amber); font-weight: 700; flex-shrink: 0; margin-top: 2px; }
 
 /* ── CTA banner ── */
 .cta-banner {
